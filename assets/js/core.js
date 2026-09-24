@@ -925,6 +925,18 @@
         { href: "names.html", jp: "地名", label: { en: "The Name “Gifu”", ja: "「岐阜」という名", zh: "「岐阜」之名" } },
         { href: "provinces.html", jp: "美濃と飛騨", label: { en: "Mino and Hida", ja: "美濃と飛騨", zh: "美濃與飛驒" } }
       ]
+    },
+    {
+      group: { en: "Land & Water", ja: "風土", zh: "風土" },
+      items: [
+        { href: "landform.html", jp: "地形と地質", label: { en: "Mountains, Plains & Rock", ja: "山と平野と岩", zh: "山、平原與岩石" } },
+        { href: "rivers.html", jp: "川と水", label: { en: "Rivers & Water", ja: "川と水", zh: "河川與水" } },
+        { href: "forests.html", jp: "森林", label: { en: "The Forests", ja: "森林", zh: "森林" } },
+        { href: "mountains.html", jp: "霊峰", label: { en: "Sacred Peaks", ja: "霊峰と山岳信仰", zh: "靈峰與山岳信仰" } },
+        { href: "onsen.html", jp: "温泉", label: { en: "Hot Springs", ja: "温泉", zh: "溫泉" } },
+        { href: "wildlife.html", jp: "生きもの", label: { en: "Living Things", ja: "生きもの", zh: "生物" } },
+        { href: "climate.html", jp: "暑さと雪", label: { en: "Heat & Snow", ja: "暑さと雪", zh: "酷暑與大雪" } }
+      ]
     }
   ];
 
