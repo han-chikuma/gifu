@@ -937,6 +937,20 @@
         { href: "wildlife.html", jp: "生きもの", label: { en: "Living Things", ja: "生きもの", zh: "生物" } },
         { href: "climate.html", jp: "暑さと雪", label: { en: "Heat & Snow", ja: "暑さと雪", zh: "酷暑與大雪" } }
       ]
+    },
+    {
+      group: { en: "History", ja: "歴史", zh: "歷史" },
+      items: [
+        { href: "history.html", jp: "歴史", label: { en: "History at a Glance", ja: "歴史の概観", zh: "歷史概觀" } },
+        { href: "ancient.html", jp: "古代", label: { en: "Ancient Mino & Hida", ja: "古代の美濃と飛騨", zh: "古代的美濃與飛驒" } },
+        { href: "medieval.html", jp: "中世", label: { en: "The Toki & the Saitō", ja: "土岐氏と斎藤氏", zh: "土岐氏與齋藤氏" } },
+        { href: "nobunaga.html", jp: "信長", label: { en: "Nobunaga's Gifu", ja: "信長の岐阜", zh: "信長的岐阜" } },
+        { href: "sekigahara.html", jp: "関ヶ原", label: { en: "Sekigahara", ja: "関ヶ原", zh: "關原" } },
+        { href: "edo.html", jp: "江戸", label: { en: "The Edo Patchwork", ja: "江戸時代の美濃・飛騨", zh: "江戶時代的美濃與飛驒" } },
+        { href: "chisui.html", jp: "治水", label: { en: "Taming the Three Rivers", ja: "木曽三川の治水", zh: "木曾三川的治水" } },
+        { href: "modern.html", jp: "近現代", label: { en: "Meiji to Now", ja: "近代から現代へ", zh: "從明治到現在" } },
+        { href: "people.html", jp: "人物", label: { en: "People", ja: "人物", zh: "人物" } }
+      ]
     }
   ];
 
