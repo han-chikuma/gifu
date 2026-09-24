@@ -266,7 +266,7 @@
     nama:    { en: "nama",         ja: "生酒",       zh: "生酒" },
     genshu:  { en: "genshu",       ja: "原酒",       zh: "原酒" },
     muroka:  { en: "muroka",       ja: "無濾過",     zh: "無濾過" },
-    nigori:  { en: "nigori",       ja: "にごり",     zh: "濁酒" },
+    nigori:  { en: "nigori",       ja: "にごり",     zh: "白濁" },
     spark:   { en: "sparkling",    ja: "発泡",       zh: "氣泡" },
     shizuku: { en: "shizuku-pressed", ja: "雫取り",  zh: "雫取" },
     aged:    { en: "aged",         ja: "熟成",       zh: "熟成" }
@@ -1002,6 +1002,17 @@
         { href: "lanterns.html", jp: "提灯と和傘", label: { en: "Lanterns, Umbrellas & Fans", ja: "提灯・和傘・団扇", zh: "燈籠、和傘與團扇" } },
         { href: "textiles.html", jp: "染めと織り", label: { en: "Dye & Cloth", ja: "染めと織り", zh: "染與織" } },
         { href: "register.html", jp: "工芸一覧", label: { en: "Crafts at a Glance", ja: "工芸一覧", zh: "工藝一覽" } }
+      ]
+    },
+    {
+      group: { en: "Sake", ja: "酒", zh: "酒" },
+      items: [
+        { href: "sake.html", jp: "岐阜の酒", label: { en: "The Sake of Gifu", ja: "岐阜の酒", zh: "岐阜的酒" } },
+        { href: "sakeland.html", jp: "米・水・酵母", label: { en: "Rice, Water & Yeast", ja: "米と水と酵母", zh: "米、水與酵母" } },
+        { href: "hidasake.html", jp: "飛騨の酒造り", label: { en: "Brewing in Hida", ja: "飛騨の酒造り", zh: "飛驒的釀酒" } },
+        { href: "breweries.html", jp: "地域の蔵", label: { en: "Breweries by Region", ja: "地域別の蔵", zh: "各地酒藏" } },
+        { href: "directory.html", jp: "名鑑", label: { en: "A Directory of Gifu Sake", ja: "岐阜酒名鑑", zh: "岐阜酒名鑑" } },
+        { href: "doburoku.html", jp: "どぶろくと枡", label: { en: "Doburoku, Masu & Cups", ja: "どぶろく・枡・酒器", zh: "濁酒、枡與酒器" } }
       ]
     }
   ];

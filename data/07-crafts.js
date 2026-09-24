@@ -89,6 +89,11 @@ GIFU.pages["washi"] = {
       ]
     },
 
+    { t:"note", label:{ en:"Telling hand-made paper", ja:"手漉きを見分ける", zh:"辨識手漉紙" }, text:{
+      en:"Hold a sheet to the light. In hand-made washi the long kōzo fibres show as a fine web running every way, because the mould is rocked both back and forth and from side to side as the sheet forms; the edges are soft and uneven where it left the mould; and it tears with difficulty in any direction. Machine-made paper sold as “washi” is more uniform, its fibres lie mostly one way, and it tears much more easily along that line.",
+      ja:"紙を光にかざしてみるとよい。手漉きの和紙では、楮の長い繊維があらゆる方向に走る細かな網目となって見える。漉くときに簀桁を前後にも左右にも揺するからである。縁は簀桁を離れたところで柔らかく不揃いになり、どの方向にも裂けにくい。「和紙」として売られる機械漉きの紙はより均一で、繊維がおおむね一方向にそろい、その向きにはずっと裂けやすい。",
+      zh:"把紙舉向光源看看。手漉和紙中，楮樹的長纖維呈現為朝各個方向延伸的細密網紋，因為抄紙時抄紙框既前後搖動、也左右搖動；紙緣在離開抄紙框之處柔軟而參差；無論朝哪個方向都不易撕開。以「和紙」之名販售的機器紙則較為均勻，纖維大多朝同一方向排列，沿著那個方向撕就容易得多。" } },
+
     { t:"related", items:[
       { href:"lanterns.html", why:{ en:"What Gifu makes from Mino paper.", ja:"岐阜が美濃紙で作るもの。", zh:"岐阜以美濃紙製作的器物。" } },
       { href:"towns.html", why:{ en:"The paper merchants' street at Mino.", ja:"美濃の紙問屋の町並み。", zh:"美濃的紙商街道。" } },
