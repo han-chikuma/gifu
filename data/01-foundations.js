@@ -237,9 +237,9 @@ GIFU.pages["start"] = {
   title:  { en: "Where to Start", ja: "始め方", zh: "從何開始" },
   jp: "五つの入口 · 六つの体験",
   lede: {
-    en: "This book is long and does not need to be read in order. People come to Gifu for different reasons — a knife, a bottle, a festival, a family name, a piece of furniture — and each reason is a good door. What follows are five routes through the book, each a handful of pages long, and six things to do with your own hands and eyes that will teach more about Gifu than any chapter here.",
-    ja: "本書は長く、順に読む必要はない。人が岐阜に来る理由はさまざまだ——一本の包丁、一本の酒、祭り、家の名、一脚の椅子。どの理由もよい入口になる。以下は、数頁ずつからなる本書の五つの道筋と、本書のどの章よりも多くを教えてくれる、自分の手と目で確かめる六つのことである。",
-    zh: "本書篇幅甚長，無須依序閱讀。人們來到岐阜的理由各不相同——一把刀、一瓶酒、一場祭典、一個姓氏、一張椅子——每一個理由都是好的入口。以下是穿越本書的五條路線，每條只有幾頁；以及六件用自己的手與眼去做的事，它們能教你的，比本書任何一章都多。"
+    en: "Nobody needs to read this book from front to back. People come to Gifu for different reasons — a knife, a bottle, a festival, a family name, a piece of furniture — and each reason is a good door. What follows are five routes through the book, each a handful of pages long, and six things to do with your own hands and eyes that will teach more about Gifu than any chapter here.",
+    ja: "本書を初めから終わりまで読み通す必要はない。人が岐阜に来る理由はさまざまだ——一本の包丁、一本の酒、祭り、家の名、一脚の椅子。どの理由もよい入口になる。以下は、数頁ずつからなる本書の五つの道筋と、本書のどの章よりも多くを教えてくれる、自分の手と目で確かめる六つのことである。",
+    zh: "這本書不必從頭讀到尾。人們來到岐阜的理由各不相同——一把刀、一瓶酒、一場祭典、一個姓氏、一張椅子——每一個理由都是好的入口。以下是穿越本書的五條路線，每條只有幾頁；以及六件用自己的手與眼去做的事，它們能教你的，比本書任何一章都多。"
   },
   body: [
     { t:"figure",

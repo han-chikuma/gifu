@@ -803,15 +803,15 @@ GIFU.pages["modern"] = {
   body: [
     { t:"figure",
       caption:{
-        en:"Population of Gifu Prefecture, schematic. The count rose through the twentieth century to a peak of about 2.11 million at the 2000 census, fell below two million in 2018 and was about 1.94 million in 2025. Intermediate points are drawn as a smooth curve and are indicative only.",
-        ja:"岐阜県の人口（模式図）。人口は二十世紀を通じて増え、2000年の国勢調査で約211万人の頂点に達し、2018年に200万人を割り、2025年には約194万人となった。途中の点はなめらかな曲線で示した目安である。",
-        zh:"岐阜縣人口（示意圖）。人口在二十世紀持續增長，於 2000 年國勢調查達到約 211 萬人的高峰，2018 年跌破兩百萬，2025 年約為 194 萬人。中間各點以平滑曲線表示，僅供參考。" },
+        en:"Population of Gifu Prefecture, schematic. The count rose through the twentieth century to a peak of about 2.11 million at the 2000 census, fell below two million in 2018 and was about 1.95 million in 2025. Intermediate points are drawn as a smooth curve and are indicative only.",
+        ja:"岐阜県の人口（模式図）。人口は二十世紀を通じて増え、2000年の国勢調査で約211万人の頂点に達し、2018年に200万人を割り、2025年には約195万人となった。途中の点はなめらかな曲線で示した目安である。",
+        zh:"岐阜縣人口（示意圖）。人口在二十世紀持續增長，於 2000 年國勢調查達到約 211 萬人的高峰，2018 年跌破兩百萬，2025 年約為 195 萬人。中間各點以平滑曲線表示，僅供參考。" },
       svg: function (lang, L) {
         var F = 'font-family="system-ui,sans-serif"';
         var x0 = 70, x1 = 720, y0 = 230, y1 = 50;
         function X(t) { return x0 + (t - 1920) / (2030 - 1920) * (x1 - x0); }
         function Y(m) { return y0 - (m - 1.0) / (2.3 - 1.0) * (y0 - y1); }
-        var pts = [[1920,1.07],[1935,1.23],[1950,1.54],[1960,1.64],[1970,1.76],[1980,1.96],[1990,2.07],[2000,2.108],[2010,2.08],[2018,1.99],[2025,1.94]];
+        var pts = [[1920,1.07],[1935,1.23],[1950,1.54],[1960,1.64],[1970,1.76],[1980,1.96],[1990,2.07],[2000,2.108],[2010,2.08],[2018,1.99],[2025,1.95]];
         var d = "", i;
         for (i = 0; i < pts.length; i++) d += (i ? " L" : "M") + X(pts[i][0]).toFixed(1) + " " + Y(pts[i][1]).toFixed(1);
         var s = '<svg viewBox="0 0 760 280" role="img" aria-label="Population of Gifu Prefecture over time">' +
@@ -828,8 +828,8 @@ GIFU.pages["modern"] = {
         s += '<path d="' + d + '" fill="none" stroke="#7C6B52" stroke-width="2"/>' +
              '<circle cx="' + X(2000).toFixed(1) + '" cy="' + Y(2.108).toFixed(1) + '" r="4" fill="#201E1B"/>' +
              '<text x="' + (X(2000) - 8).toFixed(1) + '" y="' + (Y(2.108) - 10).toFixed(1) + '" text-anchor="end" ' + F + ' font-size="10.5" fill="#201E1B">' + L({en:"2000 · 2.11 m (peak)",ja:"2000年・211万人（頂点）",zh:"2000 年・211 萬（高峰）"}) + '</text>' +
-             '<circle cx="' + X(2025).toFixed(1) + '" cy="' + Y(1.94).toFixed(1) + '" r="4" fill="#FBFAF7" stroke="#201E1B"/>' +
-             '<text x="' + (X(2025) - 6).toFixed(1) + '" y="' + (Y(1.94) + 20).toFixed(1) + '" text-anchor="end" ' + F + ' font-size="10.5" fill="#201E1B">' + L({en:"2025 · 1.94 m",ja:"2025年・194万人",zh:"2025 年・194 萬"}) + '</text>' +
+             '<circle cx="' + X(2025).toFixed(1) + '" cy="' + Y(1.95).toFixed(1) + '" r="4" fill="#FBFAF7" stroke="#201E1B"/>' +
+             '<text x="' + (X(2025) - 6).toFixed(1) + '" y="' + (Y(1.95) + 20).toFixed(1) + '" text-anchor="end" ' + F + ' font-size="10.5" fill="#201E1B">' + L({en:"2025 · 1.95 m",ja:"2025年・195万人",zh:"2025 年・195 萬"}) + '</text>' +
              '<text x="30" y="270" ' + F + ' font-size="9.5" fill="#8B857C">' + L({en:"Endpoints from census and prefectural estimates; the curve between them is indicative.",ja:"端点は国勢調査と県の推計による。あいだの曲線は目安。",zh:"端點數據出自國勢調查與縣府推估；其間曲線僅供參考。"}) + '</text></svg>';
         return s;
       }

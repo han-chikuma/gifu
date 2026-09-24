@@ -854,7 +854,9 @@
         var pr2 = pdata[pi2];
         var pn = [];
         for (var pb = 0; pb < pr2.b.length; pb++) {
-          if (b.kind && pr2.b[pb].k !== b.kind) continue;
+          var pk = pr2.b[pb].k;
+          if (b.kind && pk !== b.kind) continue;
+          if (b.not && b.not.indexOf(pk) >= 0) continue;
           pn.push('<a href="' + pr2.b[pb].p + '.html#' + pr2.b[pb].id + '">' + pr2.b[pb].jp + "</a>");
         }
         if (!pn.length) continue;
@@ -1013,6 +1015,23 @@
         { href: "breweries.html", jp: "地域の蔵", label: { en: "Breweries by Region", ja: "地域別の蔵", zh: "各地酒藏" } },
         { href: "directory.html", jp: "名鑑", label: { en: "A Directory of Gifu Sake", ja: "岐阜酒名鑑", zh: "岐阜酒名鑑" } },
         { href: "doburoku.html", jp: "どぶろくと枡", label: { en: "Doburoku, Masu & Cups", ja: "どぶろく・枡・酒器", zh: "濁酒、枡與酒器" } }
+      ]
+    },
+    {
+      group: { en: "Journeys & Reference", ja: "旅と資料", zh: "旅程與資料" },
+      items: [
+        { href: "regions.html", jp: "五圏域", label: { en: "Five Regions", ja: "五つの圏域", zh: "五大圈域" } },
+        { href: "journeys.html", jp: "旅", label: { en: "Five Journeys", ja: "五つの旅", zh: "五段旅程" } },
+        { href: "museums.html", jp: "見る場所", label: { en: "Museums & Workshops", ja: "博物館と工房", zh: "博物館與工坊" } },
+        { href: "makers.html", jp: "作り手", label: { en: "A Directory of Makers", ja: "作り手名鑑", zh: "製作者名鑑" } },
+        { href: "economy.html", jp: "産業", label: { en: "Industry & Economy", ja: "産業と経済", zh: "產業與經濟" } },
+        { href: "future.html", jp: "これから", label: { en: "The Next Twenty Years", ja: "これからの二十年", zh: "未來二十年" } },
+        { href: "chronology.html", jp: "年表", label: { en: "The Whole Chronology", ja: "総年表", zh: "總年表" } },
+        { href: "tables.html", jp: "早見表", label: { en: "Reference Tables", ja: "早見表", zh: "速查表" } },
+        { href: "faq.html", jp: "問答", label: { en: "Questions & Answers", ja: "よくある問い", zh: "常見問答" } },
+        { href: "glossary.html", jp: "用語集", label: { en: "Glossary", ja: "用語集", zh: "詞彙表" } },
+        { href: "figures.html", jp: "図版一覧", label: { en: "Every Diagram", ja: "図版一覧", zh: "圖表總覽" } },
+        { href: "sources.html", jp: "出典", label: { en: "Sources", ja: "出典", zh: "資料來源" } }
       ]
     }
   ];

@@ -175,7 +175,7 @@ const SIMP = new Set(("为个们东车马鸟龙点对会体来从让议认识记
 const CYR = /[Ѐ-ӿ]/;
 const GRK = /[Ͱ-Ͽ]/g;
 const GRKOK = /^[αβγδμΩ°]$/;
-const ZHONLY = /[們麼嗎呢咱國關與說發產邊戰實應單眾賣觀點樂樣辦處價錢歷經濟營圖團廣專轉傳體來從讓對兩滿舊藝豐醫鐵灣縣屬續總齡齒兒檢險驗覺舉擇溫淨緣綠錄釀麴藏鑄鹽醬據黃勵齊獨獻壓隱寫鄉鋁碎當黨閱歲]/;
+const ZHONLY = /[參們麼嗎呢咱國關與說發產邊戰實應單眾賣觀點樂樣辦處價錢歷經濟營圖團廣專轉傳體來從讓對兩滿舊藝豐醫鐵灣縣屬續總齡齒兒檢險驗覺舉擇溫淨緣綠錄釀麴藏鑄鹽醬據黃勵齊獨獻壓隱寫鄉鋁碎當黨閱歲]/;
 const JA_NAMES = ["鈴木藏"];
 
 let langChecked = 0;
@@ -194,7 +194,9 @@ function langWalk(v, trail, key) {
       if (gm && gm.some(c => !GRKOK.test(c))) langIssues.push({ key, trail: trail + "." + k, what: "greek", val });
       if (key === "names") continue;            /* the page about the name quotes Chinese places */
       if (k === "zh") {
-        const bad = [...val].filter(c => SIMP.has(c));
+        /* the titles of cited Japanese documents are quoted as they are */
+        const own = val.replace(/<span class="src-list">[\s\S]*?<\/span>/g, "");
+        const bad = [...own].filter(c => SIMP.has(c));
         if (bad.length) langIssues.push({ key, trail: trail + ".zh", what: "simplified: " + [...new Set(bad)].join(""), val });
       }
       if (k === "ja") {

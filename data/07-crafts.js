@@ -392,6 +392,11 @@ GIFU.pages["textiles"] = {
       ]
     },
 
+    { t:"note", label:{ en:"Sarubobo today", ja:"いまのさるぼぼ", zh:"今日的猴寶寶" }, text:{
+      en:"The traditional sarubobo is red, a colour once believed to keep illness away, and it was made at home for children and for daughters about to marry. Today it comes in many colours, each sold for a different wish, and hangs in every souvenir shop in Takayama — but the faceless red doll is still the one people mean.",
+      ja:"昔ながらのさるぼぼは赤い。赤は病を遠ざける色と信じられ、子どもや嫁ぐ娘のために家でつくられた。いまはさまざまな色があり、色ごとに違う願いを託して売られ、高山のどの土産物屋にも吊るされている。それでも人がさるぼぼと言えば、やはり顔のない赤い人形のことである。",
+      zh:"傳統的猴寶寶是紅色的——紅色曾被認為能驅離疾病——在家中為孩子與即將出嫁的女兒縫製。如今它有各種顏色，每種顏色寄託不同的心願，掛滿高山每一家紀念品店；但人們說起猴寶寶，指的仍是那個沒有五官的紅娃娃。" } },
+
     { t:"section", id:"plain",
       title:{ en:"Wool and clothing on the plain", ja:"平野の毛織物と衣料", zh:"平原上的毛織與成衣" }, jp:"尾州 · 羽島 · 岐阜駅前問屋町",
       body:[

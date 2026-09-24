@@ -3,9 +3,11 @@
    Design system: sharp edges, pale ground, quiet type.
    No border-radius anywhere. No shadows. Hairline rules only.
 
-   The design system is taken unchanged from The Book of Sake
+   The design system is taken from The Book of Sake
    (github.com/13studio-sudo/sake), © 2026 13studio-sudo,
-   MIT License — reused here under that licence.
+   MIT License — reused here under that licence. The one change
+   is a fix: pages without an in-page contents list keep a single
+   column below 900px (see ".shell.no-toc").
    ============================================================= */
 
 :root{
@@ -735,6 +737,8 @@ figcaption{ font-size:11.5px; color:var(--ink-3); margin-top:9px; line-height:1.
 /* Pages with no in-page headings give their column back to the text */
 .shell.no-toc{ grid-template-columns:var(--rail) minmax(0,1fr); }
 .shell.no-toc main{ padding-right:0; }
+/* ...but below the rail breakpoint there is no rail to leave room for */
+@media (max-width:900px){ .shell.no-toc{ grid-template-columns:minmax(0,1fr); } }
 
 /* ========================== Related ========================= */
 .related{ margin:46px 0 0; padding-top:24px; border-top:1px solid var(--rule); }

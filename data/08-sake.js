@@ -90,7 +90,7 @@ GIFU.pages["sake"] = {
       body:[
         { t:"p", text:{
           en:"There is no single Gifu style. For much of the twentieth century the prefecture's breweries, like those of neighbouring Aichi, made full, slightly sweet sake for the Nagoya market; a few went the other way, and one Tajimi house became famous for keeping its sake uncompromisingly dry through the decades when the rest of Japan was sweetening. The Hida breweries tend to a clean, firm style suited to the rich food of the mountains. Since the 1990s a new generation has turned many small Mino and Hida houses toward <em>junmai</em> and <em>ginjō</em> sake, local rice, traditional starters and year-round brewing. The directory of this part lists the houses and some of their sake: see <a href=\"directory.html\">A Directory of Gifu Sake</a>.",
-          ja:"岐阜の酒に一つの様式はない。二十世紀の多くの期間、県の蔵は、隣の愛知の蔵と同じく、名古屋の市場向けにふくよかでやや甘い酒を造った。逆の道を行った蔵もわずかにあり、多治見の一軒は、日本じゅうが甘くなっていった数十年のあいだ辛口を貫いて名高くなった。飛騨の蔵は、山の濃い味の料理に合う、きれいで締まった酒に傾く。1990年代からは新しい世代が、美濃と飛騨の多くの小さな蔵を、純米や吟醸、地元の米、伝統的な酒母、四季醸造へと向けてきた。この部の名鑑は蔵とその酒の一部を挙げる。<a href=\"directory.html\">岐阜酒名鑑</a>を参照。",
+          ja:"岐阜の酒に一つの様式はない。二十世紀の多くの期間、県の蔵は、隣の愛知の蔵と同じく、名古屋の市場向けにふくよかでやや甘い酒を造った。逆の道を行った蔵もわずかにあり、多治見の一軒は、戦後に世の酒が甘口へ流れた時代にも辛口を守り、それで名を上げた。飛騨の蔵は、山の濃い味の料理に合う、きれいで締まった酒に傾く。1990年代からは新しい世代が、美濃と飛騨の多くの小さな蔵を、純米や吟醸、地元の米、伝統的な酒母、四季醸造へと向けてきた。この部の名鑑は蔵とその酒の一部を挙げる。<a href=\"directory.html\">岐阜酒名鑑</a>を参照。",
           zh:"岐阜並沒有單一的風格。二十世紀的大部分時間裡，縣內酒藏與鄰縣愛知一樣，為名古屋市場釀造飽滿、略甜的酒；也有少數反其道而行，多治見的一家便在全日本口味轉甜的數十年間堅持毫不妥協的辛口而聲名大噪。飛驒的酒藏傾向潔淨而緊實的風格，適合山區濃郁的飲食。1990 年代以來，新一代把美濃與飛驒許多小酒藏導向純米與吟釀、在地米、傳統酒母與全年釀造。本部分的名鑑列出了這些酒藏及其部分酒款：見<a href=\"directory.html\">岐阜酒名鑑</a>。" } }
       ]
     },
@@ -106,7 +106,7 @@ GIFU.pages["sake"] = {
           { term:{en:"Breweries by Region",ja:"地域別の蔵",zh:"各地酒藏"}, jp:"地図",
             def:{en:"The houses of this book on a map of the five regions, with an index by town. <a href=\"breweries.html\">Read</a>.",ja:"本書の蔵を五つの圏域の地図に置き、市町村別の索引を添えた。<a href=\"breweries.html\">読む</a>。",zh:"將本書的酒藏標在五大圈域地圖上，並附依市町村排列的索引。<a href=\"breweries.html\">閱讀</a>。"} },
           { term:{en:"A Directory of Gifu Sake",ja:"岐阜酒名鑑",zh:"岐阜酒名鑑"}, jp:"名鑑",
-            def:{en:"Eighteen houses, their brands and some of their sake, with an index by rice. <a href=\"directory.html\">Read</a>.",ja:"十八の蔵とその銘柄、酒のいくつか。米からの索引つき。<a href=\"directory.html\">読む</a>。",zh:"十八家酒藏、其品牌與部分酒款，並附依米種排列的索引。<a href=\"directory.html\">閱讀</a>。"} },
+            def:{en:"Seventeen houses, their brands and some of their sake, with an index by rice. <a href=\"directory.html\">Read</a>.",ja:"十七の蔵とその銘柄、酒のいくつか。米からの索引つき。<a href=\"directory.html\">読む</a>。",zh:"十七家酒藏、其品牌與部分酒款，並附依米種排列的索引。<a href=\"directory.html\">閱讀</a>。"} },
           { term:{en:"Doburoku, Masu & Cups",ja:"どぶろく・枡・酒器",zh:"濁酒、枡與酒器"}, jp:"器",
             def:{en:"The festival brew of Shirakawa-gō, the masu of Ōgaki and the sake vessels of the Mino kilns. <a href=\"doburoku.html\">Read</a>.",ja:"白川郷の祭りの酒、大垣の枡、美濃の窯の酒器。<a href=\"doburoku.html\">読む</a>。",zh:"白川鄉的祭典之酒、大垣的枡，以及美濃窯燒製的酒器。<a href=\"doburoku.html\">閱讀</a>。"} }
         ] }
@@ -436,9 +436,9 @@ GIFU.pages["breweries"] = {
             [{en:"Sugihara Shuzō",ja:"杉原酒造",zh:"杉原酒造"},"射美",{en:"Ōno",ja:"大野町",zh:"大野町"},"1892"]
           ] },
         { t:"p", text:{
-          en:"Twelve of the eighteen houses in the directory are more than a century old, and five date themselves to before 1800. Several of the others are no younger; they simply do not put a year forward. Age is not quality — some of the most talked-about sake in the prefecture comes from a house that nearly closed around 1990 and was rebuilt by its next generation — but it does explain the buildings: the oldest houses brew behind the latticed fronts of the streets that <a href=\"towns.html\">Old Towns</a> describes.",
-          ja:"名鑑の十八の蔵のうち十二は百年を超え、五つは1800年より前の創業を称する。残りのいくつかも若いわけではなく、年を掲げていないだけである。古さは質ではない——県で最も話題になる酒のいくつかは、1990年前後に閉じかけ、次の世代が立て直した蔵から出ている——が、建物のことは説明する。最も古い蔵は、<a href=\"towns.html\">町並み</a>が描く通りの格子の奥で醸している。",
-          zh:"名鑑的十八家酒藏中，有十二家超過百年，五家自稱創業於 1800 年以前。其餘幾家也未必年輕，只是沒有標出年份。歷史悠久不等於品質——縣內最受討論的一些酒，出自一家在 1990 年前後幾乎歇業、由下一代重建的酒藏——但它說明了建築：最古老的酒藏，就在<a href=\"towns.html\">老街町並</a>所描述的那些街道的格子門面後方釀酒。" } }
+          en:"Twelve of the seventeen houses in the directory are more than a century old, and five date themselves to before 1800. Several of the others are no younger; they simply do not put a year forward. Age is not quality — some of the most talked-about sake in the prefecture comes from a house that nearly closed around 1990 and was rebuilt by its next generation — but it does explain the buildings: the oldest houses brew behind the latticed fronts of the streets that <a href=\"towns.html\">Old Towns</a> describes.",
+          ja:"名鑑の十七の蔵のうち十二は百年を超え、五つは1800年より前の創業を称する。残りのいくつかも若いわけではなく、年を掲げていないだけである。古さは質ではない——県で最も話題になる酒のいくつかは、1990年前後に閉じかけ、次の世代が立て直した蔵から出ている——が、建物のことは説明する。最も古い蔵は、<a href=\"towns.html\">町並み</a>が描く通りの格子の奥で醸している。",
+          zh:"名鑑的十七家酒藏中，有十二家超過百年，五家自稱創業於 1800 年以前。其餘幾家也未必年輕，只是沒有標出年份。歷史悠久不等於品質——縣內最受討論的一些酒，出自一家在 1990 年前後幾乎歇業、由下一代重建的酒藏——但它說明了建築：最古老的酒藏，就在<a href=\"towns.html\">老街町並</a>所描述的那些街道的格子門面後方釀酒。" } }
       ]
     },
 
@@ -469,9 +469,9 @@ GIFU.pages["directory"] = {
   title:  { en: "A Directory of Gifu Sake", ja: "岐阜酒名鑑", zh: "岐阜酒名鑑" },
   jp: "岐阜の蔵と銘柄",
   lede: {
-    en: "Eighteen houses from all five regions of the prefecture, each with its brand, the company behind it, its town and the year it dates itself from, a sentence or two on what it is known for, and — where the house's own published figures could be confirmed — a few of its standing bottles with designation, rice and polishing ratio. It is a selection, not a census, and not a ranking: it is the page to have open when a Gifu label in front of you carries a name you do not know.",
-    ja: "県の五つの圏域すべてから十八の蔵を選び、銘柄、それを持つ会社、所在の市町村、創業と称する年を挙げ、何で知られているかを一、二文で述べた。蔵みずからが公表する数値を確かめられたものについては、定番の酒をいくつか、特定名称・原料米・精米歩合とともに並べた。網羅ではなく抜粋であり、順位でもない。見知らぬ岐阜の銘柄が目の前にあるとき、開いておきたい頁である。",
-    zh: "自全縣五大圈域選出十八家酒藏，逐一列出品牌、其背後的公司、所在市町村，以及該酒藏自稱的創業年份，並以一兩句話說明它以什麼聞名；凡能確認酒藏自行公布之數值者，另列數款常態商品，附特定名稱、原料米與精米步合。這是選錄而非普查，也不是排名：當眼前的岐阜酒標上印著一個你不認得的名字時，這就是你會想翻開的一頁。"
+    en: "Seventeen Gifu breweries, from the merchant houses of Takayama to the small valley houses of the Ibi and the pottery towns of Tōnō. For each there is the brand, the company that owns it, its town and the year it counts from, a few lines on what makes it distinct, and — for some — a handful of regular bottles with grade, rice and polish as the brewery publishes them. The choice is meant to show the range of the prefecture, not to rank it: keep this page open when a Gifu label is unfamiliar.",
+    ja: "高山の商家の蔵から、揖斐の谷の小さな蔵、東濃の焼き物の町まで、岐阜の十七の蔵。それぞれに銘柄、それを持つ会社、町、蔵が数える創業の年、そしてどこが独特かを数行で記し、いくつかの蔵には、蔵が公表するとおりの区分・米・磨きとともに定番の酒を添えた。県の幅を示すための選び方であって、順位ではない。見慣れない岐阜の酒標に出会ったら、この頁を開いてほしい。",
+    zh: "從高山的商家酒藏、揖斐河谷的小酒藏，到東濃的陶瓷之鄉，共十七家岐阜酒藏。每家列出品牌、擁有它的公司、所在城鎮與其起算的創業年份，並以數行說明它的獨到之處；部分酒藏另附數款常態酒，依酒藏公布的內容列出等級、用米與精米程度。這份選錄意在呈現全縣的廣度，而非排名：遇到陌生的岐阜酒標時，不妨打開這一頁。"
   },
   body: [
 
@@ -479,23 +479,23 @@ GIFU.pages["directory"] = {
       title:{ en:"How to read an entry", ja:"記載の読み方", zh:"條目的讀法" }, jp:"凡例",
       body:[
         { t:"defs", items:[
-          { term:{en:"The left column",ja:"左の欄",zh:"左欄"}, jp:"銘柄・蔵元",
-            def:{en:"The brand in kanji and its reading; below it the company that brews it — often a different name, and the one printed in small type on the back label; below that the municipality and the year the house dates itself from. A founding year is the house's own claim, and for the oldest houses it rests on family tradition as much as on documents. A dash means no year is given here.",
-              ja:"銘柄の漢字と読み。その下に、それを醸す会社——しばしば別の名であり、裏ラベルに小さく刷られるのはこちらである。さらにその下に所在の市町村と、蔵が創業と称する年。創業年は蔵みずからの言であり、最も古い蔵については文書と同じほど家の伝えに拠っている。ダッシュは、ここでは年を記していないことを示す。",
-              zh:"品牌的漢字與讀音；其下是釀造它的公司——往往是另一個名字，也就是背標上以小字印出的那一個；再下方是所在市町村，以及該酒藏自稱的創業年份。創業年是酒藏自己的說法，最古老的幾家所憑的，家族傳承與文書各佔一半。破折號表示此處未記年份。"} },
-          { term:{en:"The specification line",ja:"仕様の行",zh:"規格那一行"}, jp:"特定名称・米・精米歩合",
-            def:{en:"Designation, rice and polishing ratio, in that order. The designation is the legal category — <em>junmai</em>, <em>ginjō</em> and the rest, explained on <a href=\"sakeland.html\">Rice, Water &amp; Yeast</a> — with the starter or the finishing style added where the house makes a point of it. The polishing ratio is the share of each grain left after milling, so a smaller number means more rice ground away. A dash means the figure is not given here.",
-              ja:"特定名称、原料米、精米歩合の順。特定名称は法律上の区分であり——純米、吟醸など。<a href=\"sakeland.html\">米と水と酵母</a>を参照——蔵が強調する場合には酒母の造りや仕上げの型を添えた。精米歩合は磨いたあとに残る粒の割合であるから、数字が小さいほど多く削っている。ダッシュはここでは数値を記していないことを示す。",
-              zh:"依序為特定名稱、原料米與精米步合。特定名稱是法律上的分類——純米、吟釀等，見<a href=\"sakeland.html\">米、水與酵母</a>——若酒藏特別強調，則附上酒母做法或成品型態。精米步合是磨過之後每粒米所剩的比例，因此數字愈小，削去的愈多。破折號表示此處未記該數值。"} },
-          { term:{en:"What is not here",ja:"載せていないもの",zh:"未列入的東西"}, jp:"日本酒度・酸度・価格",
-            def:{en:"No sake meter value, no acidity and no prices. The first two change from tank to tank and year to year, and a figure copied from one bottling reads as if it described the brand; prices change faster still. Nor are the makers of knives, furniture, guitars and other crafts here: they have their own directory, <a href=\"makers.html\">A Directory of Makers</a>.",
-              ja:"日本酒度、酸度、価格は載せていない。前の二つはタンクごと年ごとに変わり、ある一本の数字を写せば銘柄そのものを表すかのように読まれてしまう。価格はさらに速く変わる。刃物・家具・ギターなど工芸の作り手もここにはない。彼らには別の名鑑、<a href=\"makers.html\">作り手名鑑</a>がある。",
-              zh:"不列日本酒度、酸度與價格。前兩者逐槽逐年變動，把某一批的數字抄下來，讀起來就像在描述整個品牌；價格變得更快。刀具、家具、吉他等工藝的製作者也不在此處，他們另有自己的名鑑：<a href=\"makers.html\">製作者名鑑</a>。"} }
+          { term:{en:"Name and house",ja:"銘柄と蔵元",zh:"品牌與酒藏"}, jp:"銘柄・蔵元",
+            def:{en:"Each entry opens with the brand as it appears on the front label, in Japanese and in roman letters. Under it is the brewing company — often under quite another name, and the one printed on the back label — then the town, and the year the house gives for its founding. For the oldest houses that year rests on family records and tradition rather than on documents that can be checked; a dash means no year is given here.",
+              ja:"各項目は、表の酒標にあるとおりの銘柄を、日本語とローマ字で掲げるところから始まる。その下に醸造元の会社——しばしばまったく別の名で、裏の酒標に刷られているのはこちら——、次に町、そして蔵が創業とする年。最も古い蔵については、その年は確かめうる文書よりも家の記録と言い伝えに拠っている。ダッシュは、ここでは年を記していないことを示す。",
+              zh:"每個條目開頭是正面酒標上的品牌名稱，附日文與羅馬字。其下是釀造公司——名稱往往完全不同，背標上印的正是它——接著是所在城鎮，以及酒藏自述的創業年份。最古老的幾家，其年份依據的是家族紀錄與傳承，而非可查證的文書；破折號表示此處未記年份。"} },
+          { term:{en:"The bottles",ja:"酒",zh:"酒款"}, jp:"特定名称・米・精米歩合",
+            def:{en:"Where a house's own figures could be confirmed, a few of its regular bottles are listed with three facts: the legal grade, with the starter or style where the house makes a point of it; the rice; and how much of each grain is left after polishing — 50% means half of it was ground away. The grades are explained on <a href=\"sakeland.html\">Rice, Water &amp; Yeast</a>. A dash means no figure is given here.",
+              ja:"蔵みずからの数値を確かめられたものに限り、定番の酒をいくつか、三つの事柄とともに挙げた。法律上の区分（蔵が強調する場合は酒母や型を添える）、米、そして磨いたあとに米粒がどれだけ残るか——50%なら半分を削ったことになる。区分は<a href=\"sakeland.html\">米と水と酵母</a>で説明した。ダッシュは、ここでは数値を記していないことを示す。",
+              zh:"凡能確認酒藏自身數據者，列出其數款常態酒，附三項資訊：法定等級（酒藏特別強調時，另附酒母或風格）、原料米，以及精米後每粒米剩下多少——50% 即表示磨去了一半。等級的說明見<a href=\"sakeland.html\">米、水與酵母</a>。破折號表示此處未記該數值。"} },
+          { term:{en:"Left out",ja:"載せていないもの",zh:"未收錄的資訊"}, jp:"日本酒度・酸度・価格",
+            def:{en:"Readings of sweetness and acidity are left out: they vary from batch to batch, and one bottling's numbers say little about a brand. Prices are left out because they change. The makers of knives, furniture, guitars and other crafts have their own directory, <a href=\"makers.html\">A Directory of Makers</a>.",
+              ja:"甘辛や酸の数値は載せていない。仕込みごとに変わり、ある一本の数字は銘柄についてほとんど何も語らない。価格も変わるので載せていない。刃物・家具・ギターなど工芸の作り手は、別の名鑑<a href=\"makers.html\">作り手名鑑</a>にまとめた。",
+              zh:"不列甜辛度與酸度數值：它們每批都不同，單一批次的數字說明不了一個品牌。價格也會變動，因此不列。刀具、家具、吉他等工藝的製作者，另見名鑑<a href=\"makers.html\">製作者名鑑</a>。"} }
         ] },
         { t:"note", label:{en:"On completeness",ja:"網羅について",zh:"關於完整性"}, text:{
-          en:"Gifu has about fifty sake breweries, and this directory has eighteen. They were chosen to show the range rather than to rank: the merchant houses of Takayama and Furukawa, the oldest houses of the Mino plain, the pioneers of aged and cloudy sake, and the small houses whose revival since the 1990s has made Gifu a name among specialist shops. The Gifu Sake Brewers Association publishes the full membership.",
-          ja:"岐阜の酒蔵はおよそ五十、この名鑑に載るのは十八である。順位のためではなく幅を示すために選んだ——高山と古川の商家の蔵、美濃の平野の古い蔵、熟成酒とにごり酒の草分け、そして1990年代からの立て直しによって専門店のあいだで岐阜の名を上げた小さな蔵。全蔵の一覧は岐阜県酒造組合連合会が公表している。",
-          zh:"岐阜約有五十家酒藏，本名鑑收錄十八家。選錄的目的在於呈現其廣度而非排名：高山與古川的商家酒藏、美濃平原的古老酒藏、熟成酒與白濁清酒的先驅，以及自 1990 年代起重新振作、讓岐阜在專門酒舖之間打響名號的小酒藏。完整名單由岐阜縣酒造組合聯合會公布。" } }
+          en:"Gifu has about fifty sake breweries, and this directory has seventeen. They were chosen to show the range rather than to rank: the merchant houses of Takayama and Furukawa, the oldest houses of the Mino plain, the pioneers of aged and cloudy sake, and the small houses whose revival since the 1990s has made Gifu a name among specialist shops. The Gifu Sake Brewers Association publishes the full membership.",
+          ja:"岐阜の酒蔵はおよそ五十、この名鑑に載るのは十七である。順位のためではなく幅を示すために選んだ——高山と古川の商家の蔵、美濃の平野の古い蔵、熟成酒とにごり酒の草分け、そして1990年代からの立て直しによって専門店のあいだで岐阜の名を上げた小さな蔵。全蔵の一覧は岐阜県酒造組合連合会が公表している。",
+          zh:"岐阜約有五十家酒藏，本名鑑收錄十七家。選錄的目的在於呈現其廣度而非排名：高山與古川的商家酒藏、美濃平原的古老酒藏、熟成酒與白濁清酒的先驅，以及自 1990 年代起重新振作、讓岐阜在專門酒舖之間打響名號的小酒藏。完整名單由岐阜縣酒造組合聯合會公布。" } }
       ]
     },
 
@@ -533,18 +533,18 @@ GIFU.pages["directory"] = {
             zh:"位於養老山地山腳，以當地之水釀酒。「醴泉」是古語中甘美泉水之稱，也是 717 年詔書用來稱呼多度山那處泉水的字眼——養老年號即由此泉而來（見<a href=\"sake.html\">岐阜的酒</a>）。此藏尤以吟釀聞名。" } },
 
         { jp:"射美", r:"Ibi", h:"杉原酒造", hr:"Sugihara Shuzō", muni:"ono", kind:"sake", est:"1892",
-          note:{ en:"Describes itself as the smallest brewery in Japan, and brews with a rice variety, Ibi-no-homare, developed with farmers in its own valley and grown nowhere else (see <a href=\"sakeland.html\">Rice, Water &amp; Yeast</a>). Everything is allocated; almost nothing reaches a shop shelf.",
-            ja:"みずから日本一小さな蔵と称し、自らの谷の農家とともに育てた、他所では作られていない品種「揖斐の誉」で醸す（<a href=\"sakeland.html\">米と水と酵母</a>を参照）。すべてが配分であり、店の棚に届くものはほとんどない。",
-            zh:"自稱是日本最小的酒藏，以與自家山谷農家共同育成、他處並不種植的米種「揖斐之譽」釀酒（見<a href=\"sakeland.html\">米、水與酵母</a>）。所有酒都採配額，幾乎沒有一瓶會出現在店頭貨架上。" },
+          note:{ en:"A tiny house in the Ibi valley — it calls itself the smallest brewery in Japan — brewing from Ibi-no-homare, a rice bred with the farmers of its own valley and grown only there (see <a href=\"sakeland.html\">Rice, Water &amp; Yeast</a>). Its sake goes to a few shops by allocation and is seldom seen on an open shelf.",
+            ja:"揖斐の谷の小さな蔵で、みずから日本一小さい蔵と名のる。自らの谷の農家とともに育て、そこでしか作られない米「揖斐の誉」で醸す（<a href=\"sakeland.html\">米と水と酵母</a>を参照）。酒は限られた店に割り当てられ、棚に並ぶことはまれである。",
+            zh:"揖斐河谷的小酒藏——自稱日本最小的酒藏——以與自家河谷農家共同育成、只在當地種植的米「揖斐之譽」釀酒（見<a href=\"sakeland.html\">米、水與酵母</a>）。其酒只配給少數店家，很少出現在一般貨架上。" },
           p:[
             { jp:"射美 特別純米", g:"tj", rice:"ibi" },
             { jp:"射美 純米吟醸", g:"jg", rice:"ibi" }
           ] },
 
         { jp:"竹雀", r:"Takesuzume", h:"大塚酒造", hr:"Ōtsuka Shuzō", muni:"ikeda", kind:"sake", est:"1886",
-          note:{ en:"Nearly closed around 1990 and brought back by the sixth generation, who took it to <em>kimoto</em> and <em>yamahai</em> at low polish — a small house that chose the slow road on the way back up.",
-            ja:"1990年前後に閉じかけ、六代目が引き戻した。生酛と山廃へ、磨きは浅く。立て直しの道に、あえて遅い方を選んだ小さな蔵である。",
-            zh:"1990 年前後幾乎歇業，由第六代把它拉了回來，轉向生酛與山廢、淺磨米——一家小酒藏，在回復的路上刻意選了慢的那一條。" },
+          note:{ en:"Came close to closing around 1990. The sixth generation brought it back by the harder route: the traditional <em>kimoto</em> and <em>yamahai</em> starters, rice polished only lightly, and small batches.",
+            ja:"1990年ごろ廃業の寸前までいった。六代目は、手間のかかる道——伝統の生酛と山廃の酒母、軽く磨いただけの米、小さな仕込み——を選んで蔵を立て直した。",
+            zh:"1990 年前後幾乎歇業。第六代選擇了費工的路來重振酒藏：傳統的生酛與山廢酒母、只輕度精磨的米，以及小批量釀造。" },
           p:[
             { jp:"竹雀 生もと純米 岐阜県産山田錦", g:"j", m:["kimoto"], rice:"yamada", mill:"70%" },
             { jp:"竹雀 山廃純米 雄町70", g:"j", m:["yamahai"], rice:"omachi", mill:"70%" }
@@ -560,19 +560,19 @@ GIFU.pages["directory"] = {
         { group:{ en:"Tōnō", ja:"東濃圏域", zh:"東濃圈域" }, jp:"東濃圏域", id:"g-tono" },
 
         { jp:"三千盛", r:"Michisakari", h:"三千盛", hr:"Michisakari", muni:"tajimi", kind:"sake", est:"",
-          note:{ en:"In Tajimi, in the pottery country of Tōnō. Stayed dry all the way through the postwar decades when the rest of the country was sweetening, which cost it sales at the time and made its name later. Long the house sushi counters reach for.",
-            ja:"東濃の焼き物の土地、多治見にある。戦後、国じゅうが甘くなっていった数十年のあいだ、辛口のまま通した。当時は売上を損ない、のちに名をもたらした。鮨の台が長く手を伸ばしてきた蔵である。",
-            zh:"位於東濃陶瓷之鄉多治見。戰後全國口味轉甜的那數十年間，它始終維持辛口；當時因此損失銷量，日後卻因此得名。長久以來，這是壽司檯會伸手去拿的一家。" },
+          note:{ en:"A Tajimi house whose name has long stood for dryness. When most of Japan's sake grew sweeter after the war it declined to follow, a choice that lost it customers at the time and has earned it a reputation since, not least at sushi counters.",
+            ja:"辛口の代名詞として長く知られる多治見の蔵。戦後、日本の酒の多くが甘くなっていくなかでそれに従わず、その選択は当時は客を遠ざけたが、のちには評判を呼んだ。鮨屋のカウンターではとりわけ重んじられてきた。",
+            zh:"多治見的酒藏，長久以來就是辛口的代名詞。戰後日本多數清酒日趨甘甜時，它不肯跟進；這個選擇當時讓它流失了顧客，後來卻為它贏得名聲，在壽司店的吧台尤其受到青睞。" },
           p:[
             { jp:"三千盛 特級酒", g:"nd", mill:"50%",
-              d:{ en:"Carries a grade name from the old classification the law abolished.", ja:"法が廃した旧い級別の名を、いまも負っている。", zh:"仍沿用法律早已廢止的舊級別名稱。" } },
+              d:{ en:"Keeps on its label a grade from the classification system abolished in 1992.", ja:"1992年に廃止された級別制度の名を、いまも酒標に残す。", zh:"酒標上仍保留 1992 年廢止之級別制度的名稱。" } },
             { jp:"三千盛 純米大吟醸", g:"jd" }
           ] },
 
         { jp:"小左衛門", r:"Kozaemon", h:"中島醸造", hr:"Nakashima Jōzō", muni:"mizunami", kind:"sake", est:"1702",
-          note:{ en:"Turned toward special-designation sake in 1997 after three centuries of ordinary production, and moved to brewing all year round in 2018 so that nothing sits in the warehouse waiting for a season.",
-            ja:"三世紀にわたる並の酒造りののち、1997年に特定名称酒へ舵を切り、2018年には四季醸造に移った。季節を待って蔵に眠る酒をなくすためである。",
-            zh:"在三個世紀的普通酒生產之後，於 1997 年轉向特定名稱酒，並在 2018 年改為四季釀造，讓酒不必在倉裡等待季節。" },
+          note:{ en:"Made ordinary sake for most of three centuries before changing course in 1997 toward special-designation sake from named rice. Since 2018 it has brewed through the whole year rather than only in winter, so that each tank is made close to the time it will be drunk.",
+            ja:"三百年近く並の酒を造ってきたが、1997年に名のある米による特定名称酒へと舵を切った。2018年からは冬だけでなく一年を通して仕込み、それぞれのタンクを飲まれる時期に近いところで造っている。",
+            zh:"近三百年來都在釀造普通酒，1997 年才轉向以具名酒米釀造的特定名稱酒。自 2018 年起不再只在冬季、而是全年釀造，讓每一槽酒都在接近飲用的時候釀成。" },
           p:[
             { jp:"小左衛門 瑞ノ盞", g:"jd", rice:["aiyama","yamada"], mill:"40%" },
             { jp:"小左衛門 備前雄町", g:"jg", rice:"omachi", mill:"55%" },
@@ -618,9 +618,9 @@ GIFU.pages["directory"] = {
             zh:"位於古川同一條街上、江戶時代以來的酒藏。其名「白真弓」（以衛矛木製成的白弓）是八世紀《萬葉集》一首和歌中，引出「斐太（飛驒）」之名的枕詞。" } },
 
         { jp:"天領", r:"Tenryō", h:"天領酒造", hr:"Tenryō Shuzō", muni:"gero", kind:"sake", est:"1680",
-          note:{ en:"In Gero, in the Hida mountains, milling its own rice; the name refers to the land the shogunate held directly, which this district was. It brews much of its range with Hida Homare, the prefecture's own sake rice.",
-            ja:"飛騨の山中、下呂にあり、米は自ら精白する。名は幕府が直に治めた土地を指す語であり、この地がまさにそれであった。品揃えの多くを、県独自の酒米ひだほまれで醸す。",
-            zh:"位於飛驒山中的下呂，自行精米；名字指的是幕府直轄的領地，而此地正是如此。其產品多以本縣自有酒米飛驒譽釀造。" },
+          note:{ en:"A Gero house in the Hida river valley that polishes its own rice. Its name, <em>tenryō</em>, is the word for land ruled directly by the shogunate, as Hida was from 1692; much of its range is brewed with the prefecture's own rice, Hida Homare.",
+            ja:"飛騨川の谷、下呂の蔵で、米を自ら磨く。名の「天領」は幕府が直に治めた土地をいう言葉で、飛騨は1692年からそうであった。品揃えの多くを県独自の米ひだほまれで醸す。",
+            zh:"下呂飛驒川河谷的酒藏，自行精米。其名「天領」指幕府直接統治的土地——飛驒自 1692 年起即是如此；產品多以本縣自有的酒米飛驒譽釀造。" },
           p:[
             { jp:"天領 特別純米 飛切り", g:"tj", rice:"hidahomare" },
             { jp:"天領 純米吟醸 ひだほまれ", g:"jg", rice:"hidahomare", mill:"50%" },
@@ -634,9 +634,9 @@ GIFU.pages["directory"] = {
       title:{ en:"The same list, read by rice", ja:"米から引く", zh:"由米索藏" }, jp:"品種索引",
       body:[
         { t:"p", text:{
-          en:"Turned the other way round, the directory answers a different question: not what a house makes, but who makes something from a given grain. The count beside each variety is the number of houses above with a standing bottle of it, and every name links back to its entry. Only bottles listed above are counted, so the index is as partial as the list.",
-          ja:"名鑑を裏返せば、別の問いに答える。この蔵は何を造るか、ではなく、この米から何かを造っているのは誰か、である。品種の横の数は、上に挙げた蔵のうちその米の定番を持つ蔵の数であり、名はすべて上の記載へ戻る。数えたのは上に載せた瓶だけであるから、この索引も一覧と同じく部分的である。",
-          zh:"把名鑑翻轉過來，它回答的就是另一個問題：不是「這家酒藏做什麼」，而是「有誰用這種米做出了什麼」。品種旁的數字，是上方酒藏中擁有該米常態商品的家數，每個名字都連回其條目。只計入上方列出的酒款，因此這份索引與清單一樣並不完整。" } },
+          en:"Read from the other side, the directory becomes a list of grains: for each rice variety, the houses above that list a regular bottle made from it, with a count, and each name linking back to its entry. It covers only the bottles listed here, so it is a sample rather than a census.",
+          ja:"反対側から読むと、名鑑は米の一覧になる。品種ごとに、その米でつくる定番の酒を挙げた上の蔵を数とともに並べ、名から各項目へ戻れるようにした。ここに載せた酒だけを数えているので、全数ではなく見本である。",
+          zh:"從另一側讀，名鑑就成了一份米的清單：每個品種之下，列出上方以該米釀造常態酒款的酒藏與家數，點選名稱可回到各條目。它只計入此處列出的酒款，因此是樣本而非普查。" } },
         { t:"riceindex" },
         { t:"note", label:{ en:"By town", ja:"市町村から", zh:"依市町村" }, text:{
           en:"The same houses, arranged by municipality, are indexed at the end of <a href=\"breweries.html#index\">Breweries by Region</a>, which also places them on a map of the five regions.",
@@ -759,7 +759,7 @@ GIFU.pages["doburoku"] = {
       title:{ en:"The masu", ja:"枡", zh:"枡" }, jp:"大垣の枡",
       body:[
         { t:"p", text:{
-          en:"The square hinoki box that Ōgaki makes for the whole country — about eight in ten of Japan's masu — is the vessel of celebration. At weddings, openings and the New Year the lid of a sake cask is broken open with wooden mallets, <em>kagami-biraki</em>, and the sake ladled out into masu. In bars a glass is stood in a masu or on a saucer and filled until it overflows, <em>mokkiri</em>, as a show of generosity: drink from the glass first, then pour the overflow back into it or sip it from the corner of the box. The history of the masu as Japan's measure, and how Ōgaki became its town, is on <a href=\"everyday.html#masu\">Wood in Everyday Things</a>.",
+          en:"The square hinoki box that Ōgaki makes for the whole country — about eight in ten of Japan's masu — is the vessel of celebration. At weddings, openings and the New Year the lid of a sake cask is broken open with wooden mallets, <em>kagami-biraki</em>, and the sake ladled out into masu. In bars the pour called <em>mokkiri</em> is a show of generosity: a glass is set inside the box, or on a small dish, and the sake is poured past its brim; you drink the glass down a little, then tip in what spilled or sip it from a corner of the box. The history of the masu as Japan's measure, and how Ōgaki became its town, is on <a href=\"everyday.html#masu\">Wood in Everyday Things</a>.",
           ja:"大垣が国じゅうのために作る——日本の枡のおよそ八割を占める——檜の四角い箱は、祝いの器である。婚礼や開店や正月には、酒樽の蓋を木槌で割る「鏡開き」をして、酒を枡に汲み分ける。酒場では枡や受け皿にグラスを立て、あふれるまで注ぐ。これを「もっきり」といい、気前のよさを示す。まずグラスから飲み、あふれた分をグラスに戻すか、枡の角から啜る。枡が日本の量りであった歴史と、大垣が枡の町になったいきさつは<a href=\"everyday.html#masu\">暮らしの木</a>にある。",
           zh:"大垣為全國製作的方形檜木箱——約佔日本枡的八成——是喜慶的酒器。婚禮、開幕與新年時，人們以木槌敲開酒樽的蓋子，稱為「鏡開」，再把酒舀進枡裡分給眾人。在酒館裡，則把玻璃杯立在枡或小碟上，一直斟到滿溢，稱為「もっきり」，以示大方：先從杯中喝，再把溢出的酒倒回杯裡，或從枡角啜飲。枡作為日本量器的歷史，以及大垣如何成為枡之鄉，見<a href=\"everyday.html#masu\">生活中的木</a>。" } }
       ]
