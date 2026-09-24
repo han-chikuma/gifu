@@ -176,6 +176,7 @@ const CYR = /[Ѐ-ӿ]/;
 const GRK = /[Ͱ-Ͽ]/g;
 const GRKOK = /^[αβγδμΩ°]$/;
 const ZHONLY = /[們麼嗎呢咱國關與說發產邊戰實應單眾賣觀點樂樣辦處價錢歷經濟營圖團廣專轉傳體來從讓對兩滿舊藝豐醫鐵灣縣屬續總齡齒兒檢險驗覺舉擇溫淨緣綠錄釀麴藏鑄鹽醬據黃勵齊獨獻壓隱寫鄉鋁碎當黨閱歲]/;
+const JA_NAMES = ["鈴木藏"];
 
 let langChecked = 0;
 const langIssues = [];
@@ -197,7 +198,8 @@ function langWalk(v, trail, key) {
         if (bad.length) langIssues.push({ key, trail: trail + ".zh", what: "simplified: " + [...new Set(bad)].join(""), val });
       }
       if (k === "ja") {
-        const m = val.match(ZHONLY);
+        /* proper names that are really written with an old form, e.g. the potter 鈴木藏 */
+        const m = JA_NAMES.reduce((acc, n) => acc.split(n).join(""), val).match(ZHONLY);
         if (m) langIssues.push({ key, trail: trail + ".ja", what: "zh-form: " + m[0], val });
       }
     } else langWalk(val, trail + "." + k, key);

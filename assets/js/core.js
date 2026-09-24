@@ -993,6 +993,16 @@
         { href: "cutlery.html", jp: "刃物産業", label: { en: "The Cutlery Industry", ja: "刃物産業", zh: "刀具產業" } },
         { href: "knives.html", jp: "包丁", label: { en: "The Kitchen Knife", ja: "包丁", zh: "廚刀" } }
       ]
+    },
+    {
+      group: { en: "Paper, Clay & Cloth", ja: "紙・土・布", zh: "紙・土・布" },
+      items: [
+        { href: "washi.html", jp: "美濃和紙", label: { en: "Mino Washi", ja: "美濃和紙", zh: "美濃和紙" } },
+        { href: "minoyaki.html", jp: "美濃焼", label: { en: "Mino Ware", ja: "美濃焼", zh: "美濃燒" } },
+        { href: "lanterns.html", jp: "提灯と和傘", label: { en: "Lanterns, Umbrellas & Fans", ja: "提灯・和傘・団扇", zh: "燈籠、和傘與團扇" } },
+        { href: "textiles.html", jp: "染めと織り", label: { en: "Dye & Cloth", ja: "染めと織り", zh: "染與織" } },
+        { href: "register.html", jp: "工芸一覧", label: { en: "Crafts at a Glance", ja: "工芸一覧", zh: "工藝一覽" } }
+      ]
     }
   ];
 
