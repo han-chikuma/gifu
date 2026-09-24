@@ -78,6 +78,27 @@ GIFU.pages["wood"] = {
       ]
     },
 
+    { t:"section", id:"guide",
+      title:{ en:"How this part is arranged", ja:"この部の構成", zh:"本部分的架構" }, jp:"頁の案内",
+      body:[
+        { t:"table",
+          cols:[{en:"Page",ja:"頁",zh:"頁面"},{en:"What it covers",ja:"内容",zh:"內容"}],
+          rows:[
+            [{en:"<a href=\"hinoki.html\">Hinoki & the Kiso Five</a>",ja:"<a href=\"hinoki.html\">檜と木曽五木</a>",zh:"<a href=\"hinoki.html\">檜木與木曾五木</a>"},{en:"The tree, the Owari domain's protection of it, and the timber for the Ise shrines",ja:"木そのもの、尾張藩による保護、伊勢神宮の用材",zh:"樹木本身、尾張藩的保護，以及伊勢神宮的用材"}],
+            [{en:"<a href=\"logging.html\">Logging & Forestry</a>",ja:"<a href=\"logging.html\">林業</a>",zh:"<a href=\"logging.html\">林業</a>"},{en:"Growing, felling and extracting timber today, and the people who do it",ja:"いまの育林・伐採・搬出と、それを担う人々",zh:"今日的育林、伐採與集材，以及從事者"}],
+            [{en:"<a href=\"rafting.html\">Timber Down the Rivers</a>",ja:"<a href=\"rafting.html\">川を下った木</a>",zh:"<a href=\"rafting.html\">順流而下的木材</a>"},{en:"Three centuries of floating logs to the sea",ja:"三百年にわたり丸太を海へ流した仕組み",zh:"三百年間把原木漂送入海的系統"}],
+            [{en:"<a href=\"takumi.html\">Hida no Takumi</a> · <a href=\"joinery.html\">Joinery</a>",ja:"<a href=\"takumi.html\">飛騨の匠</a>・<a href=\"joinery.html\">継手と仕口</a>",zh:"<a href=\"takumi.html\">飛驒工匠</a>・<a href=\"joinery.html\">榫卯與接合</a>"},{en:"The carpenters of Hida and how they joined wood",ja:"飛騨の大工と木の組み方",zh:"飛驒的木匠及其接合木材的方法"}],
+            [{en:"<a href=\"furniture.html\">Hida Furniture</a> · <a href=\"everyday.html\">Wood in Everyday Things</a>",ja:"<a href=\"furniture.html\">飛騨の家具</a>・<a href=\"everyday.html\">暮らしの木</a>",zh:"<a href=\"furniture.html\">飛驒家具</a>・<a href=\"everyday.html\">生活中的木</a>"},{en:"Chairs, tables, masu, tubs and toys",ja:"椅子・テーブル・枡・桶・玩具",zh:"椅子、桌子、枡、木桶與玩具"}],
+            [{en:"<a href=\"carving.html\">Carving & Lacquer</a> · <a href=\"enku.html\">Enkū's Buddhas</a>",ja:"<a href=\"carving.html\">彫りと塗り</a>・<a href=\"enku.html\">円空仏</a>",zh:"<a href=\"carving.html\">雕刻與漆藝</a>・<a href=\"enku.html\">圓空佛</a>"},{en:"Yew carving, Shunkei lacquer and a monk's hatchet",ja:"一位一刀彫、春慶塗、そして僧の鉈",zh:"紫杉雕刻、春慶漆器與一位僧人的柴刀"}],
+            [{en:"<a href=\"architecture.html\">Building in Wood</a> · <a href=\"guitars.html\">Hand-made Guitars</a>",ja:"<a href=\"architecture.html\">木の建築</a>・<a href=\"guitars.html\">手工ギター</a>",zh:"<a href=\"architecture.html\">木造建築</a>・<a href=\"guitars.html\">手工吉他</a>"},{en:"Seven centuries of timber buildings, and the instrument makers of Kani and Sakashita",ja:"七百年の木の建築と、可児・坂下の楽器づくり",zh:"七百年的木造建築，以及可兒與坂下的樂器製作"}]
+          ] },
+        { t:"p", text:{
+          en:"Read in order, the pages follow a tree from the forest to the market: how it is grown and protected, how it was cut and moved, who worked it, and what it became. Each page stands on its own, and the diagrams are collected on <a href=\"figures.html\">Every Diagram</a>.",
+          ja:"順に読めば、これらの頁は一本の木を森から市場まで追う。どう育てられ守られるか、どう伐られ運ばれたか、誰が加工したか、そして何になったか。どの頁も単独で読むことができ、図版は<a href=\"figures.html\">図版一覧</a>にまとめてある。",
+          zh:"依序閱讀，這些頁面會追隨一棵樹從森林走到市場：它如何被培育與保護、如何被砍伐與搬運、由誰加工，以及最後成為什麼。每一頁都可獨立閱讀，圖表則彙整於<a href=\"figures.html\">圖表總覽</a>。" } }
+      ]
+    },
+
     { t:"related", items:[
       { href:"hinoki.html", why:{ en:"The tree at the centre of it all.", ja:"すべての中心にある木。", zh:"一切的核心之樹。" } },
       { href:"logging.html", why:{ en:"How the trees are grown and cut today.", ja:"いま木はどう育てられ、伐られるか。", zh:"今日樹木如何培育與採伐。" } },
@@ -979,6 +1000,22 @@ GIFU.pages["enku"] = {
       ]
     },
 
+    { t:"section", id:"recognise",
+      title:{ en:"How to recognise an Enkū", ja:"円空仏の見分け方", zh:"如何辨認圓空佛" }, jp:"特徴",
+      body:[
+        { t:"ul", items:[
+          { en:"<strong>The wood shows.</strong> Split faces, the pith of the log, knots and cracks are left in; many backs are the flat face of a split.", ja:"<strong>木がそのまま見える。</strong>割れた面、丸太の芯、節や割れが残され、背の多くは割った平らな面である。", zh:"<strong>木頭的本色清晰可見。</strong>劈開面、原木的髓心、木節與裂痕都被保留；許多背面就是劈開的平面。" },
+          { en:"<strong>Few, bold cuts.</strong> Hatchet and chisel marks are not smoothed away; drapery is a handful of parallel strokes.", ja:"<strong>少なく、大胆な刃。</strong>鉈や鑿の跡をならさず、衣文は数本の平行な刻みで表す。", zh:"<strong>刀數少而大膽。</strong>柴刀與鑿子的痕跡不加修平；衣褶只是幾道平行的刻痕。" },
+          { en:"<strong>The smile.</strong> Eyes are often narrow crescents and the mouth turns up at the corners, even on fierce deities.", ja:"<strong>微笑み。</strong>目はしばしば細い三日月形で、口角は上がる。恐ろしい姿の神仏でさえそうである。", zh:"<strong>微笑。</strong>眼睛常是細長的新月形，嘴角上揚——即使是面貌兇猛的神佛也不例外。" },
+          { en:"<strong>Writing on the back.</strong> Many figures carry ink inscriptions — a Sanskrit seed syllable for the deity, sometimes a date, a place or a verse.", ja:"<strong>背の墨書。</strong>多くの像には、尊格を表す梵字、ときには年紀や地名や歌が墨で書かれている。", zh:"<strong>背面的墨書。</strong>許多佛像背面有墨書——代表該尊的梵文種子字，有時還有年份、地名或詩句。" }
+        ] },
+        { t:"note", label:{en:"Visiting",ja:"訪ねるとき",zh:"參訪須知"}, text:{
+          en:"Many figures are in small village temples and halls that open only by arrangement or on festival days; the museums at Seki and Hashima and the treasure hall of Senkō-ji are the easiest places to see a good number together.",
+          ja:"多くの像は、予約や祭りの日にしか開かない村の小さな寺や堂にある。まとまった数を見やすいのは、関市と羽島市の資料館と、千光寺の寺宝館である。",
+          zh:"許多佛像收藏在村中的小寺與小堂，只在預約或節慶日開放；要一次看到較多作品，最方便的是關市與羽島市的紀念館，以及千光寺的寺寶館。" } }
+      ]
+    },
+
     { t:"related", items:[
       { href:"carving.html", why:{ en:"Hida's other carvers.", ja:"飛騨のほかの彫師。", zh:"飛驒的其他雕刻家。" } },
       { href:"faith.html", why:{ en:"The mountain faiths Enkū belonged to.", ja:"円空が属した山の信仰。", zh:"圓空所屬的山岳信仰。" } },
@@ -1072,6 +1109,33 @@ GIFU.pages["everyday"] = {
         ] }
       ]
     },
+
+    { t:"section", id:"sizes",
+      title:{ en:"Masu sizes and uses", ja:"枡の大きさと使い道", zh:"枡的尺寸與用途" }, jp:"勺 · 合 · 升",
+      body:[
+        { t:"table",
+          caption:{en:"Traditional volumes; 1 gō ≈ 180 ml",ja:"伝統の容量。一合は約180ミリリットル",zh:"傳統容量；一合約 180 毫升"},
+          cols:[{en:"Size",ja:"大きさ",zh:"尺寸"},{en:"Volume",ja:"容量",zh:"容量"},{en:"Typical use today",ja:"いまの主な使い道",zh:"今日的主要用途"}],
+          numCols:[1],
+          rows:[
+            [{en:"5 shaku (half a gō)",ja:"五勺（半合）",zh:"五勺（半合）"},{en:"~90 ml",ja:"約90ml",zh:"約 90ml"},{en:"Tasting cups; small gifts",ja:"利き酒の器、小さな贈り物",zh:"試飲杯；小禮品"}],
+            [{en:"8 shaku",ja:"八勺",zh:"八勺"},{en:"~145 ml",ja:"約145ml",zh:"約 145ml"},{en:"Sake at restaurants, often with a glass set inside",ja:"飲食店の酒。しばしばグラスを中に立てる",zh:"餐廳盛酒，常在其中放一個玻璃杯"}],
+            [{en:"1 gō",ja:"一合",zh:"一合"},{en:"~180 ml",ja:"約180ml",zh:"約 180ml"},{en:"The standard serving of sake; rice for one meal",ja:"酒の一杯の基準。一食分の米",zh:"清酒的標準份量；一餐份的米"}],
+            [{en:"2.5 gō",ja:"二合半",zh:"二合半"},{en:"~450 ml",ja:"約450ml",zh:"約 450ml"},{en:"Beans for Setsubun; display",ja:"節分の豆まき、飾り",zh:"節分撒豆；陳設"}],
+            [{en:"5 gō",ja:"五合",zh:"五合"},{en:"~900 ml",ja:"約900ml",zh:"約 900ml"},{en:"Measuring rice; ceremonial sake",ja:"米の計量、祝いの酒",zh:"量米；典禮用酒"}],
+            [{en:"1 shō",ja:"一升",zh:"一升"},{en:"~1.8 L",ja:"約1.8L",zh:"約 1.8L"},{en:"The old unit of trade; used at openings and festivals",ja:"かつての取引の単位。開店や祭りの祝いに",zh:"昔日的交易單位；用於開幕與祭典"}]
+          ] },
+        { t:"p", text:{
+          en:"A masu is made to hold a measure exactly, so its inside dimensions, not its outside, are fixed; the thickness of the boards varies with the maker. New hinoki masu smell strongly of the wood, and the scent passes to the sake — which is why some drinkers prefer to drink from the corner of the box and others from a glass set inside it.",
+          ja:"枡は量を正確に量るために作られるので、決まっているのは外寸ではなく内寸であり、板の厚みは作り手によって異なる。新しい檜の枡は木の香りが強く、その香りが酒に移る。枡の角から飲むのを好む人もいれば、中に立てたグラスで飲むのを好む人もいるのはそのためである。",
+          zh:"枡是為了精確量取一定容量而做的，因此固定的是內部尺寸而非外部尺寸，木板厚度則因製作者而異。新的檜木枡木香濃郁，香氣會轉移到酒中——這就是為什麼有些人喜歡從枡的角落直接喝，有些人則偏好用放在枡中的玻璃杯喝。" } }
+      ]
+    },
+
+    { t:"note", label:{en:"Making your own",ja:"自分で作る",zh:"親手製作"}, text:{
+      en:"Several Ōgaki masu makers run shops and workshops where visitors can assemble a masu from cut boards or have one branded with a name, and the town sells them at its festivals. A masu to keep should be dried after use and kept away from direct heat, which cracks the joints.",
+      ja:"大垣の枡の作り手のなかには、店や工房を開き、刻んだ板から枡を組み立てたり、名入れの焼印を押してもらえたりするところがいくつかあり、町の祭りでも売られる。手元に置く枡は、使ったあとに乾かし、組手が割れるので直火や熱の近くに置かないこと。",
+      zh:"大垣有幾家枡製造商設有店鋪與工坊，遊客可以用裁好的木板親手組裝枡，或請店家烙上名字；鎮上的祭典也有販售。想長久保存的枡，用後要晾乾，並遠離直火與熱源，否則接榫處會開裂。" } },
 
     { t:"related", items:[
       { href:"doburoku.html", why:{ en:"The masu at the sake table.", ja:"酒席の枡。", zh:"酒席上的枡。" } },

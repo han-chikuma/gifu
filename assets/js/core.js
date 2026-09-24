@@ -981,6 +981,18 @@
         { href: "architecture.html", jp: "木の建築", label: { en: "Building in Wood", ja: "木の建築", zh: "木造建築" } },
         { href: "guitars.html", jp: "手工ギター", label: { en: "Hand-made Guitars", ja: "手工ギター", zh: "手工吉他" } }
       ]
+    },
+    {
+      group: { en: "Metal & Blades", ja: "金と刃", zh: "金屬與刀刃" },
+      items: [
+        { href: "metal.html", jp: "金属", label: { en: "Metal in Gifu", ja: "岐阜の金属", zh: "岐阜的金屬" } },
+        { href: "seki.html", jp: "刃物のまち", label: { en: "Seki, Town of Blades", ja: "刃物のまち・関", zh: "刀刃之城・關" } },
+        { href: "sword.html", jp: "美濃伝", label: { en: "The Mino Sword", ja: "美濃伝の刀", zh: "美濃傳之刀" } },
+        { href: "forging.html", jp: "作刀", label: { en: "Making a Sword", ja: "作刀", zh: "鍛刀" } },
+        { href: "fittings.html", jp: "研ぎと拵", label: { en: "Polish, Mounts & Fittings", ja: "研ぎと拵", zh: "研磨與刀裝" } },
+        { href: "cutlery.html", jp: "刃物産業", label: { en: "The Cutlery Industry", ja: "刃物産業", zh: "刀具產業" } },
+        { href: "knives.html", jp: "包丁", label: { en: "The Kitchen Knife", ja: "包丁", zh: "廚刀" } }
+      ]
     }
   ];
 
