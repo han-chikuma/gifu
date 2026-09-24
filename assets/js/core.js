@@ -951,6 +951,19 @@
         { href: "modern.html", jp: "近現代", label: { en: "Meiji to Now", ja: "近代から現代へ", zh: "從明治到現在" } },
         { href: "people.html", jp: "人物", label: { en: "People", ja: "人物", zh: "人物" } }
       ]
+    },
+    {
+      group: { en: "Culture", ja: "文化", zh: "文化" },
+      items: [
+        { href: "festivals.html", jp: "祭り", label: { en: "Festivals & Floats", ja: "祭りと屋台", zh: "祭典與屋台" } },
+        { href: "ukai.html", jp: "鵜飼", label: { en: "Cormorant Fishing", ja: "鵜飼", zh: "鵜飼" } },
+        { href: "faith.html", jp: "社寺", label: { en: "Shrines & Temples", ja: "社寺と信仰", zh: "神社、寺院與信仰" } },
+        { href: "shirakawago.html", jp: "白川郷", label: { en: "Shirakawa-gō", ja: "白川郷", zh: "白川鄉" } },
+        { href: "towns.html", jp: "町並み", label: { en: "Old Towns", ja: "町並み", zh: "老街町並" } },
+        { href: "roads.html", jp: "街道", label: { en: "The Nakasendō & Old Roads", ja: "中山道と街道", zh: "中山道與古道" } },
+        { href: "food.html", jp: "食", label: { en: "Food of Mino & Hida", ja: "美濃と飛騨の食", zh: "美濃與飛驒的飲食" } },
+        { href: "kabuki.html", jp: "地歌舞伎", label: { en: "Village Kabuki", ja: "地歌舞伎と芝居小屋", zh: "地歌舞伎與芝居小屋" } }
+      ]
     }
   ];
 

@@ -402,7 +402,7 @@ GIFU.pages["nobunaga"] = {
       body:[
         { t:"p", text:{
           en:"After Saitō Dōsan's death in 1556, Nobunaga fought his brother-in-law Yoshitatsu and then Yoshitatsu's son Tatsuoki for a decade, winning over the leading Mino retainers — the three men known as the Mino Triumvirate among them — before he could take the Saitō stronghold of Inabayama. The castle fell in the eighth month of 1567 by the standard reckoning (an earlier date, 1564, has also been argued). Nobunaga moved his seat from Komaki in Owari, renamed the town Gifu and began to seal his letters with <em>tenka fubu</em>. See <a href=\"names.html\">The Name “Gifu”</a>.",
-          ja:"1556年に斎藤道三が死ぬと、信長は義兄の義龍と、ついでその子・龍興と十年にわたって戦い、「美濃三人衆」と呼ばれた三人をはじめとする美濃の有力家臣を味方につけたうえで、ようやく斎藤氏の拠点・稲葉山を取った。城が落ちたのは通説で1567年（永禄10年）8月（永禄7年説もある）。信長は尾張の小牧から居を移し、町を岐阜と改め、書状に「天下布武」の印を捺し始めた。<a href=\"names.html\">「岐阜」という名</a>を参照。",
+          ja:"1556年に斎藤道三が死ぬと、信長は義兄の義龍と、ついでその子・龍興と十年にわたって戦い、「美濃三人衆」と呼ばれた三人をはじめとする美濃の有力家臣を味方につけたうえで、ようやく斎藤氏の拠点・稲葉山を取った。城が落ちたのは通説で1567年（永禄10年）8月（1564年＝永禄7年とする説もある）。信長は尾張の小牧から居を移し、町を岐阜と改め、書状に「天下布武」の印を捺し始めた。<a href=\"names.html\">「岐阜」という名</a>を参照。",
           zh:"1556 年齋藤道三死後，信長與其內兄義龍、再與義龍之子龍興鏖戰十年，並爭取到美濃的重要家臣——包括人稱「美濃三人眾」的三人——才終於攻下齋藤氏的據點稻葉山。依通說，城在 1567 年（永祿 10 年）8 月陷落（亦有 1564 年之說）。信長把據點從尾張的小牧遷來，將城鎮改名岐阜，並開始在書信上蓋「天下布武」之印。見<a href=\"names.html\">「岐阜」之名</a>。" } }
       ]
     },

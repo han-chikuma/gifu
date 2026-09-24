@@ -405,7 +405,7 @@ GIFU.pages["forests"] = {
       body:[
         { t:"p", text:{
           en:"The other half is a crop. After 1945 Japan's forests had been cut hard for the war and for reconstruction, timber was scarce and expensive, and national policy encouraged owners to clear broadleaf woodland and replant it with fast-growing conifers. In Gifu that meant hinoki, which suits the dry, poor ridge soils of Tōnō and Mino, and sugi in the wetter valleys. Most of the planting was done in the 1950s and 1960s, which is why the commonest age class of the private plantation today is 56 to 60 years.",
-          ja:"残りの半分は作物である。1945年以後、日本の森は戦争と復興のために激しく伐られ、木材は乏しく高価で、国の政策は所有者に広葉樹林を伐り払って成長の早い針葉樹を植えるよう促した。岐阜ではそれは、東濃や美濃の乾いた痩せた尾根に合う檜と、湿った谷に合う杉を意味した。植林の大半は1950年代と60年代に行われ、そのため民有人工林でいま最も多い齢級は56〜60年生である。",
+          ja:"残りの半分は作物である。1945年以後、日本の森は戦争と復興のために激しく伐られ、木材は乏しく高価で、国の政策は所有者に広葉樹林を伐り払って成長の早い針葉樹を植えるよう促した。岐阜ではそれは、東濃や美濃の乾いた痩せた尾根に合う檜と、湿った谷に合う杉を意味した。植林の大半は1950年代と1960年代に行われ、そのため民有人工林でいま最も多い齢級は56〜60年生である。",
           zh:"另一半是一種作物。1945 年後，日本的森林因戰爭與重建遭到大量砍伐，木材稀少昂貴，國家政策鼓勵林主砍除闊葉林，改植速生針葉樹。在岐阜，這意味著適合東濃與美濃乾燥貧瘠稜線土壤的檜木，以及適合潮濕谷地的杉木。植林大多在 1950 與 1960 年代完成，因此民有人工林如今最常見的林齡是 56 至 60 年。" } },
         { t:"p", text:{
           en:"The trees matured into a different economy. Timber imports were fully liberalised by 1964, the yen rose, and domestic timber prices fell for decades; the people who planted the forests aged and their children left the villages. Many stands went unthinned. The result is a large, maturing resource — Gifu's planted forests held about 100 million m³ of timber in 2019 and grow by more each year — together with a shortage of the labour and demand needed to harvest and replant it.",

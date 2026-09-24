@@ -199,7 +199,7 @@ GIFU.pages["index"] = {
             ja:"<strong>三つの言葉は並べて書いた。</strong>英語・日本語・中国語の本文は、一方から他方へ訳したのではなく、並行して書いている。メニューからいつでも切り替えられ、再読み込みはなく、選択は記憶される。",
             zh:"<strong>三種語言並行撰寫。</strong>英文、日文與中文並非由一種翻譯成另一種，而是並排寫成。可隨時從選單切換，頁面不會重新載入，選擇也會被記住。" },
           { en:"<strong>Names.</strong> Japanese names are given family name first. Long vowels are marked in English (Tōnō, Chūnō, Ōgaki) except in names with an established spelling (Gifu, Hida). Chinese text uses traditional forms, so 飛騨 is written 飛驒 and 関 is written 關.",
-            ja:"<strong>人名と地名。</strong>日本人の名は姓・名の順とする。英文では長音を示す（Tōnō、Chūnō、Ōgaki）。ただし定着した綴り（Gifu、Hida）は除く。中国語文は繁体字を用い、飛騨は飛驒、関は關と書く。",
+            ja:"<strong>人名と地名。</strong>日本人の名は姓・名の順とする。英文では長音を示す（Tōnō、Chūnō、Ōgaki）。ただし定着した綴り（Gifu、Hida）は除く。中国語文は繁体字を用い、飛騨や関などの地名も繁体字の字形で書く。",
             zh:"<strong>人名與地名。</strong>日本人名採姓在前、名在後。英文標示長音（Tōnō、Chūnō、Ōgaki），已有固定拼法者（Gifu、Hida）除外。中文採繁體字，故「飛騨」寫作「飛驒」，「関」寫作「關」。" },
           { en:"<strong>Numbers carry their year and their unit</strong>, or they are not used. Where sources disagree — several dates in Gifu's history are disputed — the disagreement is stated rather than resolved.",
             ja:"<strong>数値には年と単位を付す</strong>。付せないものは用いない。資料が食い違う場合——岐阜の歴史にはそうした日付がいくつもある——は、一方に決めずに食い違いをそのまま記す。",
