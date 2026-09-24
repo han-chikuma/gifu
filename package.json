@@ -1,0 +1,23 @@
+{
+  "name": "the-spirit-of-gifu",
+  "version": "0.0.0.1",
+  "description": "A trilingual (English / 日本語 / 繁體中文) book on Gifu Prefecture, Japan: land, forests, rivers, history, culture, and the crafts of wood, blades, paper, clay and sake. Static, no build step required to read it.",
+  "homepage": "https://github.com/han-chikuma/gifu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/han-chikuma/gifu.git"
+  },
+  "author": "han-chikuma",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build.js",
+    "check": "node tools/check.js",
+    "layout": "node tools/layoutcheck.js",
+    "all": "node tools/build.js && node tools/check.js && node tools/layoutcheck.js"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1",
+    "playwright": "^1.56.1"
+  }
+}
