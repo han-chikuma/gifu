@@ -621,7 +621,11 @@ GIFU.pages["onsen"] = {
         { t:"note", label:{en:"Hinoki and the bath",ja:"檜と風呂",zh:"檜木與浴池"}, text:{
           en:"Many Gifu inns build their baths of hinoki, which resists rot, stays warm to the touch and releases its scent when wet. The timber usually comes from Tōnō or the Kiso region — see <a href=\"hinoki.html\">Hinoki</a> and <a href=\"everyday.html\">Wood in Everyday Things</a>.",
           ja:"岐阜の宿の多くは湯船を檜で造る。檜は腐りにくく、手に温かく、濡れると香りを放つ。材はたいてい東濃か木曽の産である。<a href=\"hinoki.html\">檜</a>と<a href=\"everyday.html\">暮らしの木</a>を参照。",
-          zh:"岐阜許多旅館以檜木打造浴池：檜木耐腐、觸感溫暖，遇水則散發香氣。木料通常來自東濃或木曾地方——見<a href=\"hinoki.html\">檜木</a>與<a href=\"everyday.html\">生活中的木</a>。" } }
+          zh:"岐阜許多旅館以檜木打造浴池：檜木耐腐、觸感溫暖，遇水則散發香氣。木料通常來自東濃或木曾地方——見<a href=\"hinoki.html\">檜木</a>與<a href=\"everyday.html\">生活中的木</a>。" } },
+        { t:"note", label:{en:"In the bath",ja:"湯に入るとき",zh:"入浴須知"}, text:{
+          en:"Wash and rinse at the taps before getting into the bath, keep towels out of the water, and tie up long hair. Spring water is often over 40 °C: go in slowly, drink water afterwards, and do not stay in long after a meal or after sake.",
+          ja:"湯船に入る前に洗い場で体を洗い流し、タオルは湯に入れず、長い髪はまとめる。温泉の湯はしばしば40度を超える。ゆっくり入り、上がったら水を飲み、食後や酒のあとに長湯はしない。",
+          zh:"進入浴池前先在淋浴處把身體洗淨沖乾淨，毛巾不要放進池裡，長髮要綁起來。溫泉水溫常超過攝氏 40 度：請慢慢入池，起身後補充水分，飯後或飲酒後不要泡太久。" } }
       ]
     },
 

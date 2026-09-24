@@ -964,6 +964,23 @@
         { href: "food.html", jp: "食", label: { en: "Food of Mino & Hida", ja: "美濃と飛騨の食", zh: "美濃與飛驒的飲食" } },
         { href: "kabuki.html", jp: "地歌舞伎", label: { en: "Village Kabuki", ja: "地歌舞伎と芝居小屋", zh: "地歌舞伎與芝居小屋" } }
       ]
+    },
+    {
+      group: { en: "Wood", ja: "木", zh: "木" },
+      items: [
+        { href: "wood.html", jp: "木の国", label: { en: "The Land of Wood", ja: "木の国", zh: "木之國" } },
+        { href: "hinoki.html", jp: "檜", label: { en: "Hinoki & the Kiso Five", ja: "檜と木曽五木", zh: "檜木與木曾五木" } },
+        { href: "logging.html", jp: "林業", label: { en: "Logging & Forestry", ja: "林業", zh: "林業" } },
+        { href: "rafting.html", jp: "川下げ", label: { en: "Timber Down the Rivers", ja: "川を下った木", zh: "順流而下的木材" } },
+        { href: "takumi.html", jp: "飛騨の匠", label: { en: "Hida no Takumi", ja: "飛騨の匠", zh: "飛驒工匠" } },
+        { href: "joinery.html", jp: "継手仕口", label: { en: "Joinery", ja: "継手と仕口", zh: "榫卯與接合" } },
+        { href: "furniture.html", jp: "家具", label: { en: "Hida Furniture", ja: "飛騨の家具", zh: "飛驒家具" } },
+        { href: "carving.html", jp: "彫りと塗り", label: { en: "Carving & Lacquer", ja: "彫りと塗り", zh: "雕刻與漆藝" } },
+        { href: "enku.html", jp: "円空", label: { en: "Enkū's Buddhas", ja: "円空仏", zh: "圓空佛" } },
+        { href: "everyday.html", jp: "暮らしの木", label: { en: "Wood in Everyday Things", ja: "暮らしの木", zh: "生活中的木" } },
+        { href: "architecture.html", jp: "木の建築", label: { en: "Building in Wood", ja: "木の建築", zh: "木造建築" } },
+        { href: "guitars.html", jp: "手工ギター", label: { en: "Hand-made Guitars", ja: "手工ギター", zh: "手工吉他" } }
+      ]
     }
   ];
 
